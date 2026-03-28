@@ -1,0 +1,10 @@
+[Unit]
+Description=Start Day Collector at 07:00
+
+[Timer]
+OnCalendar=*-*-* 07:00:00
+Persistent=true
+Unit=day_collector.service
+
+[Install]
+WantedBy=timers.target

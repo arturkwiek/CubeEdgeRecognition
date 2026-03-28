@@ -1,0 +1,5 @@
+opencv-python
+Pillow
+ImageHash
+numpy
+scikit-learn

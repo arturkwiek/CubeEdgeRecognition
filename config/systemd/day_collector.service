@@ -1,0 +1,14 @@
+[Unit]
+Description=Day Collector - face crops acquisition (07:00-15:00)
+After=network.target
+
+[Service]
+Type=simple
+# TODO: ustaw poprawną ścieżkę do Pythona i projektu
+ExecStart=/usr/bin/python /opt/vision-pipeline/day_collector.py
+WorkingDirectory=/opt/vision-pipeline
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

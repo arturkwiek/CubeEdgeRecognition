@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Night Trainer at 15:01
+
+[Timer]
+OnCalendar=*-*-* 15:01:00
+Persistent=true
+Unit=night_trainer.service
+
+[Install]
+WantedBy=timers.target

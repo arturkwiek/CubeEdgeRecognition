@@ -1,0 +1,9 @@
+[Unit]
+Description=Stop Day Collector at 15:00
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl stop day_collector.service
+
+[Install]
+WantedBy=multi-user.target

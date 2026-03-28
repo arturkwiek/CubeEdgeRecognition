@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Train Classifier at 15:10
+
+[Timer]
+OnCalendar=*-*-* 15:10:00
+Persistent=true
+Unit=train_classifier.service
+
+[Install]
+WantedBy=timers.target

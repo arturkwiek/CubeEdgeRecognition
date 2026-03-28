@@ -1,0 +1,11 @@
+[Unit]
+Description=Night Trainer - offline clustering job
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python /opt/vision-pipeline/night_trainer.py
+WorkingDirectory=/opt/vision-pipeline
+
+[Install]
+WantedBy=multi-user.target

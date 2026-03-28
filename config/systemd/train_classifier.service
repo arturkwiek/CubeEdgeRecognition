@@ -1,0 +1,11 @@
+[Unit]
+Description=Train Classifier - supervised learning job
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python /opt/vision-pipeline/train_classifier.py
+WorkingDirectory=/opt/vision-pipeline
+
+[Install]
+WantedBy=multi-user.target
