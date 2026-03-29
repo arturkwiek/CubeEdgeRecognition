@@ -6,9 +6,7 @@ Ten projekt realizuje **eksperyment badawczy** polegający na automatycznej akwi
 
 ## Komunikat dla uczestników
 
-**Stając przed tą kamerą wyrażasz zgodę na uczestnictwo w eksperymencie opisanym pod linkiem:**
-
-> [OPIS EKSPERYMENTU – WSTAW WŁAŚCIWY LINK]
+**Stając przed tą kamerą wyrażasz zgodę na uczestnictwo w eksperymencie opisanym poniżej.**
 
 Jeżeli nie wyrażasz zgody, **nie stawaj w polu widzenia kamery**.
 
@@ -27,7 +25,7 @@ Jeżeli nie wyrażasz zgody, **nie stawaj w polu widzenia kamery**.
 ## Funkcjonalności systemu
 
 1. **Dzienne zbieranie danych (Day Collector)**
-  - automatyczne przechwytywanie obrazu z kamery w wybranych godzinach,
+  - automatyczne przechwytywanie obrazu z kamery w godzinach **07:00–15:00**, zgodnie z harmonogramem opisanym w DEPLOYMENT.md,
   - wykrywanie twarzy (Haar Cascade),
   - zapisywanie wycinków twarzy (cropów) do katalogu `data/faces_raw/`,
   - odrzucanie zbyt małych, rozmazanych lub „profilowych” ujęć,
