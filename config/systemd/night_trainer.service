@@ -1,6 +1,7 @@
 [Unit]
 Description=Night Trainer - offline clustering job
 After=network.target
+OnSuccess=train_classifier.service
 
 [Service]
 Type=oneshot

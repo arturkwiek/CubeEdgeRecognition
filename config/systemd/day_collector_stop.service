@@ -1,5 +1,6 @@
 [Unit]
 Description=Stop Day Collector at 15:00
+OnSuccess=night_trainer.service
 
 [Service]
 Type=oneshot
